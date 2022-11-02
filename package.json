@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "practicando node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set ENTORNO=developer& nodemon index.js",
+    "qa": "set ENTORNO=qa& nodemon index.js",
+    "start": "set ENTORNO=production& node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian405/node.git"
+  },
+  "author": "Sebastian Vasquez Tamayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastian405/node/issues"
+  },
+  "homepage": "https://github.com/sebastian405/node#readme",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
